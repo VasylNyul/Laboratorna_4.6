@@ -12,9 +12,9 @@
 		182F98092721381900776DD9 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F98082721381900776DD9 /* Document.m */; };
 		182F980B2721381D00776DD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182F980A2721381D00776DD9 /* Assets.xcassets */; };
 		182F980E2721381D00776DD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182F980C2721381D00776DD9 /* Main.storyboard */; };
-		182F98112721381D00776DD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F98102721381D00776DD9 /* main.m */; };
 		182F981C2721381E00776DD9 /* Laboretorna_4_7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F981B2721381E00776DD9 /* Laboretorna_4_7Tests.m */; };
 		182F98272721381E00776DD9 /* Laboretorna_4_7UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F98262721381E00776DD9 /* Laboretorna_4_7UITests.m */; };
+		182F98362721383E00776DD9 /* Laba_4__6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 182F98342721383E00776DD9 /* Laba_4__6.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		182F980A2721381D00776DD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182F980D2721381D00776DD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182F980F2721381D00776DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		182F98102721381D00776DD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		182F98122721381D00776DD9 /* Laboretorna_4_7.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Laboretorna_4_7.entitlements; sourceTree = "<group>"; };
 		182F98172721381E00776DD9 /* Laboretorna_4_7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboretorna_4_7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182F981B2721381E00776DD9 /* Laboretorna_4_7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboretorna_4_7Tests.m; sourceTree = "<group>"; };
@@ -53,6 +52,8 @@
 		182F98222721381E00776DD9 /* Laboretorna_4_7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboretorna_4_7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182F98262721381E00776DD9 /* Laboretorna_4_7UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboretorna_4_7UITests.m; sourceTree = "<group>"; };
 		182F98282721381E00776DD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182F98342721383E00776DD9 /* Laba_4__6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Laba_4__6.cpp; sourceTree = "<group>"; };
+		182F98352721383E00776DD9 /* Laba_4__6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Laba_4__6.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,8 @@
 		182F97F52721381900776DD9 = {
 			isa = PBXGroup;
 			children = (
+				182F98342721383E00776DD9 /* Laba_4__6.cpp */,
+				182F98352721383E00776DD9 /* Laba_4__6.hpp */,
 				182F98002721381900776DD9 /* Laboretorna_4_7 */,
 				182F981A2721381E00776DD9 /* Laboretorna_4_7Tests */,
 				182F98252721381E00776DD9 /* Laboretorna_4_7UITests */,
@@ -112,7 +115,6 @@
 				182F980A2721381D00776DD9 /* Assets.xcassets */,
 				182F980C2721381D00776DD9 /* Main.storyboard */,
 				182F980F2721381D00776DD9 /* Info.plist */,
-				182F98102721381D00776DD9 /* main.m */,
 				182F98122721381D00776DD9 /* Laboretorna_4_7.entitlements */,
 			);
 			path = Laboretorna_4_7;
@@ -265,8 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				182F98092721381900776DD9 /* Document.m in Sources */,
+				182F98362721383E00776DD9 /* Laba_4__6.cpp in Sources */,
 				182F98062721381900776DD9 /* ViewController.m in Sources */,
-				182F98112721381D00776DD9 /* main.m in Sources */,
 				182F98032721381900776DD9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
